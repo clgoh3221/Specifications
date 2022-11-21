@@ -1,0 +1,30 @@
+Total = 5
+
+ID = 1
+Energy = -1
+DNA-1 + Food-1 ->
+P-1 + DNA-1 .
+
+ID = 2
+Energy = 150
+DNA-1 + P-1 + Food-1 -> 
+Waste-1 + DNA-1 .    
+
+ID = 3
+Energy = -1
+P-1 + P-1 ->
+Waste-1 . 
+
+ID = 4
+Energy = -1
+DNA-1 + InATrue-1 ->
+OutFalse-1 + DNA-1 .
+
+ID = 5
+Energy = -1
+DNA-1 + InAFalse-1 ->
+OutTrue-1 + DNA-1 .
+
+End
+
+

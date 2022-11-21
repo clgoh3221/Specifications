@@ -1,0 +1,104 @@
+Food 1
+0.0
+1.0
+0.0
+0.05
+0
+0
+
+P 1
+1.0
+0.0
+0.0
+0.3
+100
+100
+
+Waste 1
+1.0
+0.5
+0.0
+0.05
+100
+0
+
+A 1
+0.5
+0.1
+0.0
+0.3
+0
+100
+
+AA 1
+1.0
+0.8
+0.0
+0.05
+100
+100
+
+AAA 1
+0.8
+1.0
+0.0
+0.3
+100
+100
+
+AAAA 1
+0.3
+1.0
+0.0
+0.3
+100
+100
+
+AAAAA 1
+0.5
+0.0
+1.0
+0.3
+100
+0
+
+End
+
+/*
+Molecule name and state number
+R
+G
+B
+
+Opacity
+Default resistance to enter a cell
+Default resistance to exit a cell
+*/
+
+/*
+Food 1  : Green
+P 1     : Red
+DNA 1   : Orange
+Waste 1 : Blue
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

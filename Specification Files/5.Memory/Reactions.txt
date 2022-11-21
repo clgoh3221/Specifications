@@ -1,0 +1,90 @@
+Total = 17
+
+ID = 1
+Energy = -1
+DNA-1 + Food-1 ->
+P-1 + DNA-1 .
+
+ID = 2
+Energy = 150
+DNA-1 + P-1 + Food-1 -> 
+Waste-1 + DNA-1 .    
+
+ID = 3
+Energy = -1
+P-1 + P-1 ->
+Waste-1 .
+
+ID = 4
+Energy = -1
+DNA-1 + InitMemory-1 + Food-1 -> 
+DNA-1 + StoreInit-1 .    
+
+ID = 5
+Energy = -1
+DNA-1 + StoreInit-1 + StoreInit-1 -> 
+DNA-1 + StoreInit-1 + Waste-1 .    
+
+ID = 6
+Energy = -1
+DNA-1 + StoreInit-1 + WriteFalse-1 -> 
+DNA-1 + StoreFalse-1 .    
+
+ID = 7
+Energy = -1
+DNA-1 + StoreInit-1 + WriteTrue-1 -> 
+DNA-1 + StoreTrue-1 .    
+
+ID = 8
+Energy = -1
+DNA-1 + StoreFalse-1 + StoreFalse-1 -> 
+DNA-1 + StoreFalse-1 + Waste-1 .    
+
+ID = 9
+Energy = -1
+DNA-1 + StoreTrue-1 + StoreTrue-1 -> 
+DNA-1 + StoreTrue-1 + Waste-1 .    
+
+ID = 10
+Energy = -1
+DNA-1 + StoreFalse-1 + WriteTrue-1 -> 
+DNA-1 + StoreTrue-1 .
+
+ID = 11
+Energy = -1
+DNA-1 + StoreTrue-1 + WriteTrue-1 -> 
+DNA-1 + StoreTrue-1 .
+
+ID = 12
+Energy = -1
+DNA-1 + StoreFalse-1 + WriteFalse-1 -> 
+DNA-1 + StoreFalse-1 .
+
+ID = 13
+Energy = -1
+DNA-1 + StoreTrue-1 + WriteFalse-1 -> 
+DNA-1 + StoreFalse-1 .
+
+ID = 14
+Energy = -1
+DNA-1 + StoreFalse-1 + Read-1 -> 
+DNA-1 + MemoryOutFalse-1 .
+
+ID = 15
+Energy = -1
+DNA-1 + StoreTrue-1 + Read-1 -> 
+DNA-1 + MemoryOutTrue-1 .
+
+ID = 16
+Energy = -1
+DNA-1 + StoreFalse-1 + Destroy-1 -> 
+DNA-1 + Waste-1 .
+
+ID = 17
+Energy = -1
+DNA-1 + StoreTrue-1 + Destroy-1 -> 
+DNA-1 + Waste-1 .
+
+End
+
+
